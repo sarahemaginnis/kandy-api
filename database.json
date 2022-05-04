@@ -1,0 +1,159 @@
+{
+    "Customers": [
+        {
+            "id": 1,
+            "name": "Draco Malfoy",
+            "address": "691 Jerel Courts",
+            "email": "kmckenzie@slytherin.edu"
+        },
+        {
+            "id": 2,
+            "name": "Pansy Parkinson",
+            "address": "9029 Milan Square",
+            "email": "pparkinson@slytherin.edu"
+        },
+        {
+            "id": 3,
+            "name": "Hermione Granger",
+            "address": "5239 Elijah Fields",
+            "email": "hgranger@gryffindor.edu"
+        },
+        {
+            "id": 4,
+            "name": "Ron Weasley",
+            "address": "67456 Wilmer Trace",
+            "email": "rweasley@gryffindor.edu"
+        },
+        {
+            "id": 5,
+            "name": "Luna Lovegood",
+            "address": "077 Queen Springs",
+            "email": "llovegood@ravenclaw.edu"
+        },
+        {
+            "id": 6,
+            "name": "Cho Chang",
+            "address": "694 Halvorson Lodge",
+            "email": "cchang@ravenclaw.edu"
+        },
+        {
+            "id": 7,
+            "name": "Cedric Diggory",
+            "address": "207 Gutmann Locks",
+            "email": "cdiggory@hufflepuff.edu"
+        },
+        {
+            "id": 8,
+            "name": "Hannah Abbott",
+            "address": "370 Murazik Shore",
+            "email": "habbott@hufflepuff.edu"
+        }
+    ],
+    "Locations": [
+        {
+            "id": 1,
+            "address": "868 Kale Centers",
+            "squareFootage": 2000,
+            "handicapAccessible": true
+        },
+        {
+            "id": 2,
+            "address": "724 Katharina Plains",
+            "squareFootage": 500,
+            "handicapAccessible": false
+        },
+        {
+            "id": 3,
+            "address": "27612 Karlee Trail",
+            "squareFootage": 1200,
+            "handicapAccessible": true
+        }
+    ],
+    "Employees": [
+        {
+            "id": 1,
+            "name": "Cary O'Keefe",
+            "locationId": 3
+        },
+        {
+            "id": 2,
+            "name": "Esther Homenick",
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "name": "Janet Bahringer",
+            "locationId": 2
+        }
+    ],
+    "Product Types": [
+        {
+            "id": 1,
+            "name": "chocolates"
+        },
+        {
+            "id": 2,
+            "name": "gummies"
+        },
+        {
+            "id": 3,
+            "name": "hard candies"
+        },
+        {
+            "id": 4,
+            "name": "sodas"
+        }
+    ],
+    "Products": [
+        {
+            "id": 1,
+            "name": "Butterbeer",
+            "productTypeId": 4,
+            "quantity": 300
+        },
+        {
+            "id": 2,
+            "name": "Sherbet Lemon",
+            "productTypeId": 3,
+            "quantity": 250
+        },
+        {
+            "id": 3,
+            "name": "Bertie Bott's Every Flavour Beans",
+            "productTypeId": 2,
+            "quantity": 275
+        },
+        {
+            "id": 4,
+            "name": "Chocolate Frogs",
+            "productTypeId": 1,
+            "quantity": 230
+        }
+    ],
+    "Purchases": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 2,
+            "locationId": 3,
+            "productId": 4,
+            "dateCompleted": "Sun Dec 05 2021 12:51:25 GMT-0600 (Central Standard Time)"
+        },
+        {
+            "id": 2,
+            "customerId": 2,
+            "employeeId": 3,
+            "locationId": 1,
+            "productId": 2,
+            "dateCompleted": "Wed Aug 11 2021 02:43:58 GMT-0500 (Central Daylight Time)"
+        },
+        {
+            "id": 3,
+            "customerId": 3,
+            "employeeId": 1,
+            "locationId": 2,
+            "productId": 1,
+            "dateCompleted": "Mon Mar 21 2022 00:10:01 GMT-0500 (Central Daylight Time)"
+        }
+    ]
+}
