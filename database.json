@@ -86,22 +86,22 @@
             "locationId": 2
         }
     ],
-    "ProductTypes": [
+    "productTypes": [
         {
             "id": 1,
-            "name": "chocolates"
+            "name": "chocolate"
         },
         {
             "id": 2,
-            "name": "gummies"
+            "name": "gummie"
         },
         {
             "id": 3,
-            "name": "hard candies"
+            "name": "hard candy"
         },
         {
             "id": 4,
-            "name": "sodas"
+            "name": "soda"
         }
     ],
     "Products": [
