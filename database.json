@@ -86,7 +86,7 @@
             "locationId": 2
         }
     ],
-    "Product Types": [
+    "ProductTypes": [
         {
             "id": 1,
             "name": "chocolates"
@@ -109,25 +109,25 @@
             "id": 1,
             "name": "Butterbeer",
             "productTypeId": 4,
-            "quantity": 300
+            "price": "3.25"
         },
         {
             "id": 2,
             "name": "Sherbet Lemon",
             "productTypeId": 3,
-            "quantity": 250
+            "price": "0.25"
         },
         {
             "id": 3,
             "name": "Bertie Bott's Every Flavour Beans",
             "productTypeId": 2,
-            "quantity": 275
+            "price": "2.00"
         },
         {
             "id": 4,
             "name": "Chocolate Frogs",
             "productTypeId": 1,
-            "quantity": 230
+            "price": "1.75"
         }
     ],
     "Purchases": [
