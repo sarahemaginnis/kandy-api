@@ -1,5 +1,5 @@
 {
-    "Customers": [
+    "customers": [
         {
             "id": 1,
             "name": "Draco Malfoy",
@@ -49,7 +49,7 @@
             "email": "habbott@hufflepuff.edu"
         }
     ],
-    "Locations": [
+    "locations": [
         {
             "id": 1,
             "address": "868 Kale Centers",
@@ -69,21 +69,30 @@
             "handicapAccessible": true
         }
     ],
-    "Employees": [
+    "employees": [
         {
             "id": 1,
             "name": "Cary O'Keefe",
-            "locationId": 3
+            "locationId": 3,
+            "manager": true,
+            "fullTime": true,
+            "hourlyRate": 25
         },
         {
             "id": 2,
             "name": "Esther Homenick",
-            "locationId": 1
+            "locationId": 1,
+            "manager": false,
+            "fullTime": false,
+            "hourlyRate": 15
         },
         {
             "id": 3,
             "name": "Janet Bahringer",
-            "locationId": 2
+            "locationId": 2,
+            "manager": false,
+            "fullTime": false,
+            "hourlyRate": 15
         }
     ],
     "productTypes": [
@@ -104,7 +113,7 @@
             "name": "soda"
         }
     ],
-    "Products": [
+    "products": [
         {
             "id": 1,
             "name": "Butterbeer",
@@ -130,7 +139,7 @@
             "price": "1.75"
         }
     ],
-    "Purchases": [
+    "purchases": [
         {
             "id": 1,
             "customerId": 1,
